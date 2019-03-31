@@ -1,1 +1,10 @@
 # CSV-SEPARATOR
+
+## Separates the .csv files 
+
+**HOW TO USE**
+<ul>
+  <li> INSERT A .CSV FILE </li>
+  <li> INSERT THE NUMBER OF FILES YOU WANT TO SEPARATE THE VERY FIRST .CSV FILE </li>
+  <li> PRESS THE SEPARATION BUTTON TO SEPARATE THE FILE </li>
+  </ul>
