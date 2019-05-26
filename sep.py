@@ -1,9 +1,11 @@
 from tkinter import *
 from tkinter import messagebox as msg
+from tkinter import filedialog
+
 #import csv
 import os 
 import pandas as pd
-from tkinter import filedialog
+
 class CSV_SEPARATOR():
     def __init__(self,master):
         self.concatlist =[]
