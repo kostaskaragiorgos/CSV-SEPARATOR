@@ -49,7 +49,7 @@ class CSV_SEPARATOR():
     def sepfin(self):
         self.filename = filedialog.askopenfilename(initialdir="/",title="Select csv file",
                                                    filetypes=(("csv files","*.csv"),("all files","*.*")))
-        if ".csv" in self.filename:
+        if self.filename.endswith('.csv'):
             self.sepfb.configure(state="disable")
             self.pandascheck = pd.read_csv(self.filename)
             self.indexs = Label(self.master,text = "INDEX:"+str(self.pandascheck.index.size))
